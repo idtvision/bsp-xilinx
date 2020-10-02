@@ -1,3 +1,11 @@
+# Buildling on skull (Ubuntu 20.04)
+
+buildroot fails in host-m4 and host-bison; need to copy over patched code.
+Patched code is here:
+
+/home/idtskull/enclustra/bsp-xilinx/sources/buildroot-rootfs/output/build/host-m4-1.4.18
+/home/idtskull/enclustra/bsp-xilinx/sources/buildroot-rootfs/output/build/host-bison-3.0.4
+
 # Enclustra Build Environment
 
 Enclustra Build Environment is a tool which allows the user to quickly set up and run all of the Enclustra modules running a Xilinx Zynq device.
