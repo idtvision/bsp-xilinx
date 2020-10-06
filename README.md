@@ -1,3 +1,7 @@
+# Building U-Boot on the command line (no fetching)
+
+./build.sh -d Zynq-Ultrascale+/Mercury_XU8/Mercury_PE1/MMC -b U-Boot
+
 # Buildling on skull (Ubuntu 20.04)
 
 buildroot fails in host-m4 and host-bison; need to copy over patched code.
