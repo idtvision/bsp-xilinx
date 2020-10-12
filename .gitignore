@@ -5,3 +5,4 @@ binaries
 build.log
 out_*
 4CG_out_*
+4CG_no_bitstream_out_Zynq-Ultrascale+_Mercury_XU8_Blade_1_MMC
