@@ -10,3 +10,6 @@
 [submodule "buildscripts"]
 	path = buildscripts
 	url = ../enclustra-buildscripts
+[submodule "sources/blade_fw"]
+	path = sources/blade_fw
+	url = git@github.com:idtvision/blade
