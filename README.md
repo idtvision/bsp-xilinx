@@ -1,3 +1,7 @@
+# Cross-compile modules
+PATH+=:~/blade1/bsp-xilinx/bin/aarch64-none-linux-gnueabi/bin
+make CROSS_COMPILE="aarch64-none-linux-gnueabi-" CROSS32CC="arm-none-linux-gnueabi-gcc" ARCH=arm64 V=1 modules
+
 # Building U-Boot on the command line (no fetching)
 
 ./build.sh -d Zynq-Ultrascale+/Mercury_XU8/Blade_1/MMC -b U-Boot
